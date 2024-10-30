@@ -60,3 +60,57 @@
     height: auto;
     border-radius: 10px;
 }
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    background-color: #1d2731;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.footer-section h4 {
+    font-size: 1.2em;
+    color: #f1c40f;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 10px 0;
+    color: #b5c1c9;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #b5c1c9;
+    text-decoration: none;
+    font-size: 0.95em;
+}
+
+.footer-section ul li a:hover {
+    color: #f1c40f; /* Change de couleur au survol */
+}
+
+.footer-section p.footer-copyright {
+    font-size: 0.85em;
+    color: #b5c1c9;
+    margin-top: 20px;
+}
+
